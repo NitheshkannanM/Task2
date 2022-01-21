@@ -1,0 +1,14 @@
+console.log(typeof 1); returns the number
+console.log(typeof 1.1); returns the number
+console.log(typeof '1.1'); returns the string
+console.log(typeof true); returns the boolean 
+console.log(typeof null);returns the null value
+let a;
+console.log(typeof a); returns the undefined object
+let b = null;
+console.log(typeof b);
+var c = ["m","n","k"];
+console.log(typeof c);
+Array.isArray(c) returns the array by checking them 
+console.log(typeof function () {} );returns the function
+console.log(typeof NaN); returns the NAN value "number"
